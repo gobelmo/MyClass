@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyClass.GroupListPage"
+             x:Name="GroupListPageView"
+             Title="Group List">
+    <ScrollView>
+        <StackLayout Padding="20"
+                     VerticalOptions="Start">
+
+            <ActivityIndicator x:Name="LoadingIndicator"
+                               IsRunning="True"
+                               IsVisible="False"
+                               HorizontalOptions="Center"/>
+
+            <CollectionView x:Name="GroupCollectionView"
+                            ItemsSource="{Binding Groups}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+                            ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10"
+                               BackgroundColor="#eeeeee"
+                               HasShadow="False"
+                               CornerRadius="10">
+                            <!-- Grid for group details with icon -->
+                            <Grid ColumnDefinitions="Auto, *, Auto"
+                                    Padding="0">
+                                <!-- App Icon -->
+                                <Frame HasShadow="False"
+                                       BorderColor="Transparent"
+                                       HeightRequest="100"
+                                       WidthRequest="100"
+                                       CornerRadius="25"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                    <Image Source="{Binding AppIcon}"
+                                           Aspect="AspectFit"
+                                           WidthRequest="100"
+                                           HeightRequest="100"/>
+                                </Frame>
+                                <!-- Group information -->
+                                <StackLayout Grid.Column="1"
+                                        Padding="10">
+                                    <Label Text="{Binding Id, StringFormat='กลุ่ม {0}'}"
+                                            FontSize="20"/>
+                                    <Label Text="{Binding AppName}"
+                                            FontSize="18"/>
+                                </StackLayout>
+                                 <ImageButton Source="detail_icon.png"
+                                             HeightRequest="30"
+                                             WidthRequest="30"
+                                             BackgroundColor="Transparent"
+                                             Grid.Column="2"
+                                             Command="{Binding Source={x:Reference GroupListPageView}, Path=NavigateCommand}"
+                                             CommandParameter="{Binding .}"
+                                             HorizontalOptions="End"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

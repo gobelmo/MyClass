@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign BCEE91EAB4284B2ACDDADCF509948818732A90CC --entitlements /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/ios-arm64/Entitlements.xcent /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/ios-arm64/MyClass.app

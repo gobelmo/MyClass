@@ -1,0 +1,248 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyClass.StudentDetailPage"
+             Title="Student Details">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Student Avatar -->
+             <Frame HasShadow="False"
+                    BorderColor="Transparent"
+                    HeightRequest="200"
+                    WidthRequest="200"
+                    CornerRadius="100"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                <Image Source="{Binding Student.AvatarUrl}"
+                        Aspect="AspectFit"
+                        WidthRequest="200"
+                        HeightRequest="200"
+                        HorizontalOptions="Center"
+                        Margin="0, 10"/>
+            </Frame>    
+            <!-- Student Full Name -->
+            <Label Text="{Binding Student.FullName}"
+                   FontSize="22"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+
+            <!-- Student ID -->
+            <Label Text="{Binding Student.Id}"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"/>
+
+            <!-- Student Group Number -->
+            <Label Text="{Binding Student.GroupNo, StringFormat='Group: {0}'}"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"/>
+
+            <!-- Attendance Section -->
+
+            <!-- Attendance Section -->
+            <Frame BackgroundColor="#eeeeee"
+                    Padding="10">
+                <StackLayout>
+                 
+                    <!-- Attendance Calculation Label -->
+                    <Label Text="{Binding Student.AttendanceSummary}"
+                           FontSize="20"
+                           TextColor="Black"
+                           Padding="10"/>
+
+                    <!-- ScrollView for Horizontal Labels -->
+                    <ScrollView Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal"
+                                Spacing="10"
+                                HorizontalOptions="Start">
+                            <Label Text="{Binding Student.Attn02Sep, StringFormat='02 Sep: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn09Sep, StringFormat='09 Sep: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn16Sep, StringFormat='16 Sep: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn23Sep, StringFormat='23 Sep: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn07Oct, StringFormat='07 Oct: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn21Oct, StringFormat='21 Oct: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn28Oct, StringFormat='28 Oct: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                            <Label Text="{Binding Student.Attn04Nov, StringFormat='04 Nov: {0}'}"
+                                    BackgroundColor="LightGray"
+                                    Padding="5"/>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </Frame>
+
+
+           <ScrollView>
+    <StackLayout Padding="10">
+        
+        <!-- Assignments Section -->
+        <Label Text="Assignments"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="Black"
+               Margin="0, 20"/>
+
+        <!-- Assignment 1 -->
+        <Label Text="Assignment 1 - ClipMobileFramework"
+               FontSize="16"
+               TextColor="Black"
+               Margin="0, 5"/>
+        <Frame Padding="10"
+               BorderColor="Gray"
+               CornerRadius="5"
+               HasShadow="False"
+               Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_1}"
+                        Placeholder="Enter Assignment 1 details"
+                        HeightRequest="100"
+                        AutoSize="TextChanges"
+                        Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_1_link}"
+                       Placeholder="Enter link for Assignment 1" />
+                <Entry Text="{Binding Student.Assignment_1_score}"
+                       Placeholder="Enter score for Assignment 1"
+                       Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Repeat the structure for each assignment from Assignment 2 to Assignment 12 -->
+
+        <!-- Assignment 2 -->
+        <Label Text="Assignment 2 - Helloworld" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_2}" Placeholder="Enter Assignment 2 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_2_link}" Placeholder="Enter link for Assignment 2" />
+                <Entry Text="{Binding Student.Assignment_2_score}" Placeholder="Enter score for Assignment 2" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 3 -->
+        <Label Text="Assignment 3 - XML" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_3}" Placeholder="Enter Assignment 3 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_3_link}" Placeholder="Enter link for Assignment 3" />
+                <Entry Text="{Binding Student.Assignment_3_score}" Placeholder="Enter score for Assignment 3" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 4 -->
+        <Label Text="Assignment 4 - MAUI-PageType" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_4}" Placeholder="Enter Assignment 4 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_4_link}" Placeholder="Enter link for Assignment 4" />
+                <Entry Text="{Binding Student.Assignment_4_score}" Placeholder="Enter score for Assignment 4" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 5 -->
+        <Label Text="Assignment 5 - NavigationPage" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_5}" Placeholder="Enter Assignment 5 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_5_link}" Placeholder="Enter link for Assignment 5" />
+                <Entry Text="{Binding Student.Assignment_5_score}" Placeholder="Enter score for Assignment 5" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 6 -->
+        <Label Text="Assignment 6 - Calculator" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_6}" Placeholder="Enter Assignment 6 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_6_link}" Placeholder="Enter link for Assignment 6" />
+                <Entry Text="{Binding Student.Assignment_6_score}" Placeholder="Enter score for Assignment 6" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 7 -->
+        <Label Text="Assignment 7 - Register" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_7}" Placeholder="Enter Assignment 7 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_7_link}" Placeholder="Enter link for Assignment 7" />
+                <Entry Text="{Binding Student.Assignment_7_score}" Placeholder="Enter score for Assignment 7" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 8 -->
+        <Label Text="Assignment 8 - BMI" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_8}" Placeholder="Enter Assignment 8 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_8_link}" Placeholder="Enter link for Assignment 8" />
+                <Entry Text="{Binding Student.Assignment_8_score}" Placeholder="Enter score for Assignment 8" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 9 -->
+        <Label Text="Assignment 9 - Car_Race" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_9}" Placeholder="Enter Assignment 9 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_9_link}" Placeholder="Enter link for Assignment 9" />
+                <Entry Text="{Binding Student.Assignment_9_score}" Placeholder="Enter score for Assignment 9" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 10 -->
+        <Label Text="Assignment 10 - SQLite" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_10}" Placeholder="Enter Assignment 10 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_10_link}" Placeholder="Enter link for Assignment 10" />
+                <Entry Text="{Binding Student.Assignment_10_score}" Placeholder="Enter score for Assignment 10" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 11 -->
+        <Label Text="Assignment 11 - Firestore" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_11}" Placeholder="Enter Assignment 11 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_11_link}" Placeholder="Enter link for Assignment 11" />
+                <Entry Text="{Binding Student.Assignment_11_score}" Placeholder="Enter score for Assignment 11" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Assignment 12 -->
+        <Label Text="Assignment 12" FontSize="16" TextColor="Black" Margin="0, 5"/>
+        <Frame Padding="10" BorderColor="Gray" CornerRadius="5" HasShadow="False" Margin="0, 5">
+            <StackLayout Spacing="5">
+                <Editor Text="{Binding Student.Assignment_12}" Placeholder="Enter Assignment 12 details" HeightRequest="100" AutoSize="TextChanges" Keyboard="Text"/>
+                <Entry Text="{Binding Student.Assignment_12_link}" Placeholder="Enter link for Assignment 12" />
+                <Entry Text="{Binding Student.Assignment_12_score}" Placeholder="Enter score for Assignment 12" Keyboard="Numeric"/>
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+</ScrollView>
+
+
+            <!-- Save Button to Update Data -->
+            <Button Text="Save Changes"
+                    Command="{Binding SaveCommand}"
+                    HorizontalOptions="Center"
+                    Margin="0, 20"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

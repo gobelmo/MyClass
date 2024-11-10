@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyClass.StudentListPage"
+             x:Name="StudentListPageView"
+             Title="Student List">
+    <ScrollView>
+        <StackLayout Padding="20"
+                     VerticalOptions="Start">
+            <SearchBar x:Name="StudentSearchBar"
+                       Placeholder="Search by ID or Name"
+                       TextChanged="OnSearchBarTextChanged"
+                       BackgroundColor="White"
+                       Margin="0,0,0,10"/>
+
+            <ActivityIndicator x:Name="LoadingIndicator"
+                               IsRunning="True"
+                               IsVisible="False"
+                               HorizontalOptions="Center"/>
+
+            <CollectionView x:Name="StudentCollectionView"
+                            ItemsSource="{Binding Students}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+                                       ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="10"
+                               BackgroundColor="#eeeeee"
+                               HasShadow="False"
+                               CornerRadius="10">
+                            <!-- Grid for student details with avatar -->
+                            <Grid ColumnDefinitions="Auto, *, Auto"
+                                  Padding="0">
+                                <!-- Avatar image -->
+                                <Frame HasShadow="False"
+                                       BorderColor="Transparent"
+                                       HeightRequest="100"
+                                       WidthRequest="100"
+                                       CornerRadius="50"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center">
+                                    <Image Source="{Binding AvatarUrl}"
+                                           Aspect="AspectFit"
+                                           WidthRequest="100"
+                                           HeightRequest="100"/>
+                                </Frame>
+                                <!-- Student information -->
+                                <StackLayout Grid.Column="1"
+                                             Padding="10">
+                                    <Label Text="{Binding Id}"
+                                           FontSize="18"/>
+                                    <Label Text="{Binding FullName}"
+                                           FontSize="16"/>
+                                    <Label Text="{Binding GroupNo, StringFormat='กลุ่ม {0}'}"
+                                           FontSize="16"
+                                           TextColor="Gray"/>
+                                </StackLayout>
+                                <ImageButton Source="detail_icon.png"
+                                             HeightRequest="30"
+                                             WidthRequest="30"
+                                             BackgroundColor="Transparent"
+                                             Grid.Column="2"
+                                             Command="{Binding Source={x:Reference StudentListPageView}, Path=NavigateCommand}"
+                                             CommandParameter="{Binding .}"
+                                             HorizontalOptions="End"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

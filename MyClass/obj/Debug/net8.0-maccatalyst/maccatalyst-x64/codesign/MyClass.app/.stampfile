@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/MyClass.app
