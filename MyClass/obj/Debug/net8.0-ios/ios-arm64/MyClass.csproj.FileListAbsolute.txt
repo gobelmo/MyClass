@@ -332,3 +332,4 @@
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/ios-arm64/MyClass.pdb
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/ios-arm64/MyClass.genruntimeconfig.cache
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/ios-arm64/ref/MyClass.dll
+/Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/ios-arm64/MyClass.sourcelink.json
