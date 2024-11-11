@@ -198,11 +198,11 @@
 		</data>
 		<key>MyClass.dll</key>
 		<data>
-		4RiRctErwSP2qW4VWIBeBNusZrQ=
+		0I77YXdYqmEFNCnUXjaZqLw+5uc=
 		</data>
 		<key>MyClass.pdb</key>
 		<data>
-		bF8UDc39M/SrrmkudSXDQa4v2Ps=
+		VkCYDfhwnyOyfUkf0MOZg6bCJ2o=
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
@@ -1008,6 +1008,10 @@
 		<data>
 		XD1El09eHoDlQ1j85NYgVVeAzyw=
 		</data>
+		<key>myclass-de4b5-firebase-adminsdk-w2b9j-2c8edb23f0.json</key>
+		<data>
+		yv+qOdWDdOnWLzXlTSbw51B8GY4=
+		</data>
 		<key>myclass-de4b5-firebase-adminsdk-w2b9j-4ae3af5057.json</key>
 		<data>
 		uiS2iPQjdac6kUQl8ALEHFwQhqM=
@@ -1440,14 +1444,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			czIcOinHiF1wMdqhu32AzIjsOoLKp4lyM1IC+TU9f+I=
+			lXFysfXGQCsyiMJPZVCcdRP9G9SbU73sjO15AQKIq2A=
 			</data>
 		</dict>
 		<key>MyClass.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vn+zdYqNA9Ys03QPs5hDmmJNvwN4ZpfcNJ98YkQNB5U=
+			JvSInjXvu/B8Z9rTXVZNP1v/PDXJtsSyOOqREHo8D0A=
 			</data>
 		</dict>
 		<key>Newtonsoft.Json.dll</key>
@@ -2848,6 +2852,13 @@
 			<key>hash2</key>
 			<data>
 			1le9BlV1GjZ63ln2MTVwWcA/5ZGW1XGsYDhoH1t/5Ds=
+			</data>
+		</dict>
+		<key>myclass-de4b5-firebase-adminsdk-w2b9j-2c8edb23f0.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hkngj+cMN6zaMz0gAi6magUvJ26WrOqNOow9S48xxEU=
 			</data>
 		</dict>
 		<key>myclass-de4b5-firebase-adminsdk-w2b9j-4ae3af5057.json</key>

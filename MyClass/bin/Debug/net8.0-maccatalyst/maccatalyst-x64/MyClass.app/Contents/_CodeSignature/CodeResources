@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>Resources/AboutAssets.txt</key>
 		<data>
 		87D3//yZmTijel0tM/5kvTDtVRM=
@@ -52,9 +56,21 @@
 		<data>
 		2zjHJQFNlWsewzKbY+OkzBIQBYk=
 		</data>
+		<key>Resources/myclass-de4b5-firebase-adminsdk-w2b9j-2c8edb23f0.json</key>
+		<data>
+		yv+qOdWDdOnWLzXlTSbw51B8GY4=
+		</data>
+		<key>Resources/myclass-de4b5-firebase-adminsdk-w2b9j-4ae3af5057.json</key>
+		<data>
+		uiS2iPQjdac6kUQl8ALEHFwQhqM=
+		</data>
 		<key>Resources/myclass-de4b5-firebase-adminsdk-w2b9j-99925feb03.json</key>
 		<data>
 		/g/iFrD+0pXs0Upy1CfyfgbdpxA=
+		</data>
+		<key>Resources/myclass-firebase-adminsdk.json</key>
+		<data>
+		yv+qOdWDdOnWLzXlTSbw51B8GY4=
 		</data>
 		<key>Resources/student.png</key>
 		<data>
@@ -63,6 +79,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/Firebase.Auth.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8wzX5/+/3EiKFONS2huvqRGmImnZS5NaBYwAX7Bby1g=
+			</data>
+		</dict>
 		<key>MonoBundle/FirebaseAdmin.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -347,14 +370,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWi1feJ6XcI7Pp0ohG9SJkmN/FGiwLRazdGSRgBz5RM=
+			rv0mmZofJH5BqcnyWmwT4POa874wmZTIf5GeJuf+Jsc=
 			</data>
 		</dict>
 		<key>MonoBundle/MyClass.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			99WfKwDCRXPWjqxaGXtij49DdeDHmM7bvhoq2ELBD/U=
+			qJowRbqZEM4R2KuckpEP84k/ChhUMnJuEoeniWFIYb4=
 			</data>
 		</dict>
 		<key>MonoBundle/Newtonsoft.Json.dll</key>
@@ -1869,11 +1892,32 @@
 			03884woRRUPNgjixz/UTggdPiO+/1VQN5QJd7aYkNnQ=
 			</data>
 		</dict>
+		<key>Resources/myclass-de4b5-firebase-adminsdk-w2b9j-2c8edb23f0.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hkngj+cMN6zaMz0gAi6magUvJ26WrOqNOow9S48xxEU=
+			</data>
+		</dict>
+		<key>Resources/myclass-de4b5-firebase-adminsdk-w2b9j-4ae3af5057.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YB35GmFdmZIx7Vs3PjGl0PeZijbh7ADsefKEpV/YWCc=
+			</data>
+		</dict>
 		<key>Resources/myclass-de4b5-firebase-adminsdk-w2b9j-99925feb03.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			w8JO5qRl6uSnp5agf92ZUDakyAyZKSDFqiKWh+LnrJc=
+			</data>
+		</dict>
+		<key>Resources/myclass-firebase-adminsdk.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hkngj+cMN6zaMz0gAi6magUvJ26WrOqNOow9S48xxEU=
 			</data>
 		</dict>
 		<key>Resources/student.png</key>

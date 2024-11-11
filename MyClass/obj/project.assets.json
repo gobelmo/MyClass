@@ -20,6 +20,22 @@
           }
         }
       },
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Api.CommonProtos/2.16.0": {
         "type": "package",
         "dependencies": {
@@ -2631,7 +2647,7 @@
         }
       }
     },
-    "net8.0-android34.0/ios-arm64": {
+    "net8.0-android34.0/maccatalyst-x64": {
       "FirebaseAdmin/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -2646,6 +2662,22 @@
         },
         "runtime": {
           "lib/net6.0/FirebaseAdmin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
             "related": ".xml"
           }
         }
@@ -5274,6 +5306,22 @@
           }
         }
       },
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Api.CommonProtos/2.16.0": {
         "type": "package",
         "dependencies": {
@@ -6099,7 +6147,7 @@
         }
       }
     },
-    "net8.0-ios18.0/ios-arm64": {
+    "net8.0-ios18.0/maccatalyst-x64": {
       "FirebaseAdmin/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -6114,6 +6162,22 @@
         },
         "runtime": {
           "lib/net6.0/FirebaseAdmin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
             "related": ".xml"
           }
         }
@@ -6956,6 +7020,22 @@
           }
         }
       },
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Api.CommonProtos/2.16.0": {
         "type": "package",
         "dependencies": {
@@ -7781,7 +7861,7 @@
         }
       }
     },
-    "net8.0-maccatalyst18.0/ios-arm64": {
+    "net8.0-maccatalyst18.0/maccatalyst-x64": {
       "FirebaseAdmin/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -7796,6 +7876,22 @@
         },
         "runtime": {
           "lib/net6.0/FirebaseAdmin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
             "related": ".xml"
           }
         }
@@ -8637,6 +8733,22 @@
         "lib/net6.0/FirebaseAdmin.xml",
         "lib/netstandard2.0/FirebaseAdmin.dll",
         "lib/netstandard2.0/FirebaseAdmin.xml"
+      ]
+    },
+    "FirebaseAuthentication.net/4.1.0": {
+      "sha512": "pShi5v9cvT5bUWZDm261lO4uxJHvzOvpj46YHrL3uCB1WBeyCIcpoVakAQ2xHTu1dpmV86/BzSNRpqIGNp860g==",
+      "type": "package",
+      "path": "firebaseauthentication.net/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "firebase.png",
+        "firebaseauthentication.net.4.1.0.nupkg.sha512",
+        "firebaseauthentication.net.nuspec",
+        "lib/netstandard2.0/Firebase.Auth.dll",
+        "lib/netstandard2.0/Firebase.Auth.xml"
       ]
     },
     "Google.Api.CommonProtos/2.16.0": {
@@ -12517,6 +12629,7 @@
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
       "FirebaseAdmin >= 3.1.0",
+      "FirebaseAuthentication.net >= 4.1.0",
       "Google.Cloud.Firestore >= 3.9.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
@@ -12525,6 +12638,7 @@
     ],
     "net8.0-ios18.0": [
       "FirebaseAdmin >= 3.1.0",
+      "FirebaseAuthentication.net >= 4.1.0",
       "Google.Cloud.Firestore >= 3.9.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
@@ -12533,6 +12647,7 @@
     ],
     "net8.0-maccatalyst18.0": [
       "FirebaseAdmin >= 3.1.0",
+      "FirebaseAuthentication.net >= 4.1.0",
       "Google.Cloud.Firestore >= 3.9.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
@@ -12598,6 +12713,10 @@
             "target": "Package",
             "version": "[3.1.0, )"
           },
+          "FirebaseAuthentication.net": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
           "Google.Cloud.Firestore": {
             "target": "Package",
             "version": "[3.9.0, )"
@@ -12648,6 +12767,10 @@
           "FirebaseAdmin": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "FirebaseAuthentication.net": {
+            "target": "Package",
+            "version": "[4.1.0, )"
           },
           "Google.Cloud.Firestore": {
             "target": "Package",
@@ -12700,6 +12823,10 @@
             "target": "Package",
             "version": "[3.1.0, )"
           },
+          "FirebaseAuthentication.net": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
           "Google.Cloud.Firestore": {
             "target": "Package",
             "version": "[3.9.0, )"
@@ -12747,7 +12874,7 @@
       }
     },
     "runtimes": {
-      "ios-arm64": {
+      "maccatalyst-x64": {
         "#import": []
       }
     }

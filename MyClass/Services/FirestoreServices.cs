@@ -21,7 +21,7 @@ public class FirestoreService
         {
             if (db == null)
             {
-                var stream = await FileSystem.OpenAppPackageFileAsync("myclass-de4b5-firebase-adminsdk-w2b9j-4ae3af5057.json");
+                var stream = await FileSystem.OpenAppPackageFileAsync("myclass-firebase-adminsdk.json");
                 var reader = new StreamReader(stream);
                 var contents = reader.ReadToEnd();
                 db = new FirestoreDbBuilder

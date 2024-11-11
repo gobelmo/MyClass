@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8ubEHLizIUU=",
+  "dgSpecHash": "sfO+rP1vJ0I=",
   "success": true,
   "projectFilePath": "/Users/gobelmo/code/DX212/MyClass/MyClass/MyClass.csproj",
   "expectedPackageFiles": [
     "/Users/gobelmo/.nuget/packages/firebaseadmin/3.1.0/firebaseadmin.3.1.0.nupkg.sha512",
+    "/Users/gobelmo/.nuget/packages/firebaseauthentication.net/4.1.0/firebaseauthentication.net.4.1.0.nupkg.sha512",
     "/Users/gobelmo/.nuget/packages/google.api.commonprotos/2.16.0/google.api.commonprotos.2.16.0.nupkg.sha512",
     "/Users/gobelmo/.nuget/packages/google.api.gax/4.9.0/google.api.gax.4.9.0.nupkg.sha512",
     "/Users/gobelmo/.nuget/packages/google.api.gax.grpc/4.9.0/google.api.gax.grpc.4.9.0.nupkg.sha512",

@@ -35,6 +35,7 @@
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/runtimeconfig.bin
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/FirebaseAdmin.dll
+/Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/Firebase.Auth.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/Google.Api.CommonProtos.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/Google.Api.Gax.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../MyClass.app/Contents/MonoBundle/Google.Api.Gax.Grpc.dll
