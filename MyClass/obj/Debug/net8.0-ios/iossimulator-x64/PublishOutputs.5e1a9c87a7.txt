@@ -35,6 +35,7 @@
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/runtimeconfig.bin
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/FirebaseAdmin.dll
+/Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/Firebase.Auth.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/Google.Api.CommonProtos.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/Google.Api.Gax.dll
 /Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/publish/../MyClass.app/Google.Api.Gax.Grpc.dll

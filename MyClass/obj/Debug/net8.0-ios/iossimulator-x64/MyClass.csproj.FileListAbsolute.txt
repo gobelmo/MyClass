@@ -336,6 +336,8 @@
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/MyClass.pdb
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/MyClass.genruntimeconfig.cache
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/ref/MyClass.dll
+/Users/gobelmo/code/DX212/MyClass/MyClass/bin/Debug/net8.0-ios/iossimulator-x64/Firebase.Auth.dll
+/Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/MyClass.sourcelink.json
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/resourcestamps/FirebaseAdmin.stamp
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/resourcestamps/Google.Api.CommonProtos.stamp
 /Users/gobelmo/code/DX212/MyClass/MyClass/obj/Debug/net8.0-ios/iossimulator-x64/resourcestamps/Google.Api.Gax.stamp

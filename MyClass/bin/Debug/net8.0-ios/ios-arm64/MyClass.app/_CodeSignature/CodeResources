@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>AboutAssets.txt</key>
 		<data>
 		87D3//yZmTijel0tM/5kvTDtVRM=
@@ -11,6 +15,10 @@
 		<key>Assets.car</key>
 		<data>
 		kw645YI78OcvM5SmveVLAgfQgxQ=
+		</data>
+		<key>Firebase.Auth.dll</key>
+		<data>
+		Rri6f9VAZTFOmQJeEf7TjqSMvKI=
 		</data>
 		<key>FirebaseAdmin.dll</key>
 		<data>
@@ -198,11 +206,11 @@
 		</data>
 		<key>MyClass.dll</key>
 		<data>
-		0I77YXdYqmEFNCnUXjaZqLw+5uc=
+		rtZ8EuhOWFOLzAcrm8FUYs+GS7I=
 		</data>
 		<key>MyClass.pdb</key>
 		<data>
-		VkCYDfhwnyOyfUkf0MOZg6bCJ2o=
+		c+gnB+Bzk9VQdFXh+ClUyVDS8wU=
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
@@ -1020,6 +1028,10 @@
 		<data>
 		/g/iFrD+0pXs0Upy1CfyfgbdpxA=
 		</data>
+		<key>myclass-firebase-adminsdk.json</key>
+		<data>
+		eA79W9UxC7eyJz/KCiBjQdWYejU=
+		</data>
 		<key>nb/Microsoft.Maui.Controls.resources.dll</key>
 		<data>
 		jiN2+TdUa1Dxx9djHRzy0pWWVyE=
@@ -1123,6 +1135,13 @@
 			<key>hash2</key>
 			<data>
 			LE9iurQ8Mz1vXOE6cRXSPJCmGZTTKQxq8Yz6AN9+mMA=
+			</data>
+		</dict>
+		<key>Firebase.Auth.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8wzX5/+/3EiKFONS2huvqRGmImnZS5NaBYwAX7Bby1g=
 			</data>
 		</dict>
 		<key>FirebaseAdmin.dll</key>
@@ -1444,14 +1463,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lXFysfXGQCsyiMJPZVCcdRP9G9SbU73sjO15AQKIq2A=
+			7XeD5k/sgjBUMAXsmlfKFiwLtp+pli3vnlISlnQOAXw=
 			</data>
 		</dict>
 		<key>MyClass.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JvSInjXvu/B8Z9rTXVZNP1v/PDXJtsSyOOqREHo8D0A=
+			F/Cyh1c0fPle8yj9YWWWHJTIS6kSMjMNSET8pIUBzP0=
 			</data>
 		</dict>
 		<key>Newtonsoft.Json.dll</key>
@@ -2873,6 +2892,13 @@
 			<key>hash2</key>
 			<data>
 			w8JO5qRl6uSnp5agf92ZUDakyAyZKSDFqiKWh+LnrJc=
+			</data>
+		</dict>
+		<key>myclass-firebase-adminsdk.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oEtZCx3R7OIyNKPn4yPZp2gq4YYSe701tjwW8WdVcGc=
 			</data>
 		</dict>
 		<key>nb/Microsoft.Maui.Controls.resources.dll</key>
